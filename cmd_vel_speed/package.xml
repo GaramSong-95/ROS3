@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>cmd_vel_speed</name>
+  <version>0.0.1</version>
+  <description>The cmd_vel_speed package</description>
+  <license>Apache License 2.0</license>
+  <author email="aiot@kccistc.net">sh kim</author>
+  <maintainer email="aiot@kccistc.net">sh kim</maintainer>
+  <url type="website">http://www.kccistc.net</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <export></export>
+</package>

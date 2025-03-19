@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(cmd_vel_speed)
+find_package(catkin REQUIRED COMPONENTS roscpp std_msgs)
+catkin_package(CATKIN_DEPENDS roscpp std_msgs)
+include_directories(${catkin_INCLUDE_DIRS})
+add_executable(cmd_vel_speed src/cmd_vel_speed.cpp)
+target_link_libraries(cmd_vel_speed ${catkin_LIBRARIES})
